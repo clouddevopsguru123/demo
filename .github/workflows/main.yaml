@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 jobs:
   demo:
-    - uses: ./.github/workflows/hello.yml
+    uses: ./.github/workflows/hello.yml
       with:
-        message: santosh
+        message: "santosh"
         
       
 
