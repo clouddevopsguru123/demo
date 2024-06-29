@@ -5,8 +5,8 @@ on:
 jobs:
   demo:
     uses: ./.github/workflows/hello.yml
-      with:
-        message: "santosh"
+    with:
+      message: "santosh"
         
       
 
