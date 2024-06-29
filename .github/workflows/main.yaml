@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   demo:
-    uses: ./.github/workflows/hello.yml
+    uses: ./.github/workflows/hello.yaml
     with:
       message: "santosh"
         
